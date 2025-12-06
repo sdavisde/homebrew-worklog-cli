@@ -8,7 +8,7 @@ class WorklogCli < Formula
       url "https://github.com/sdavisde/worklog-cli/releases/download/v0.3.0/worklog-cli-aarch64-apple-darwin.tar.gz"
       sha256 "b813e1ad7ed2bed2b0c66b14b6208e06d0ade1f09623da24ef449b072d2b48a4"
     else
-      odie "worklog-cli currently only supports Apple Silicon (ARM64) Macs. Please check the project homepage for platform availability updates."
+      odie "worklog-cli currently only supports ARM-based Macs (Apple Silicon). Please check the project homepage for platform availability updates."
     end
   end
 
