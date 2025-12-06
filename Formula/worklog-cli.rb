@@ -2,7 +2,7 @@ class WorklogCli < Formula
   desc "Daily task and time tracking with simple Markdown-based notes"
   homepage "https://github.com/sdavisde/worklog-cli"
   version "0.3.0"
-  
+
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/sdavisde/worklog-cli/releases/download/v0.3.0/worklog-cli-aarch64-apple-darwin.tar.gz"
@@ -25,7 +25,7 @@ class WorklogCli < Formula
     <<~EOS
       Template files have been installed to:
         #{pkgshare}/templates
-      
+
       To get started:
         wl --help
         wl open
